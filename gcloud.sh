@@ -15,6 +15,6 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyr
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo tee /usr/share/keyrings/cloud.google.gpg
 sudo apt-get update && sudo apt-get install google-cloud-cli
-google-cloud-cli-app-engine-python
-google-cloud-cli-datastore-emulator
+sudo apt-get install google-cloud-cli-app-engine-python
+sudo apt-get install google-cloud-cli-datastore-emulator
 echo "NOW EVERYTHING IS READY"
