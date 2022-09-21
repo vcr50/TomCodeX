@@ -1,0 +1,7 @@
+runtime: python310
+threadsafe: true
+api_version: 1
+
+handlers:
+- url: /.*
+  script: app.app
